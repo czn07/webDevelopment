@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Landing Page</title>
+        <link rel="stylesheet" href="template04.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <header class="header">
+            <h1 class="intro">Welcome</h1>
+            <div class="icon">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+            </div>
+            
+ 
+        </header>
+        <nav class="navbar">
+            <div class="logo">
+                Logo Name
+            </div>
+
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Log in</li>
+                </ul>
+            </nav>
+        
+    </body>
+</html>
+/* Navbar styling */
+.navbar {
+    display: flex; /* Enables flexbox layout */
+    justify-content: space-between; /* Distributes space between logo and ul */
+    align-items: center; /* Vertically centers the logo and list items */
+    padding: 0 20px; /* Adds horizontal padding */
+    background-color: #333; /* Background color */
+    color: white; /* Text color */
+}
+
+/* Logo styling */
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Unordered list styling */
+ul {
+    display: flex; /* This makes the list items display in a row */
+    list-style: none; /* Removes default list bullet points */
+    margin: 0;
+    padding: 0;
+    flex: 1; /* Makes the ul element take up available space */
+    justify-content: flex-end; /* Aligns the list items to the right */
+}
+
+/* List item styling */
+ul li {
+    margin-left: 20px; /* Adds space between list items */
+    cursor: pointer; /* Makes the list items look clickable */
+}
+
+/* Hover effect for list items */
+ul li:hover {
+    color: #f39c12; /* Changes text color on hover */
+}

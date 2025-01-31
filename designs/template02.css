@@ -1,0 +1,49 @@
+.main-container{
+    width: 100%;
+    height: 40px;
+    border: 2px solid black;
+    background-color: black;
+    position: sticky;
+    top: 0px;
+    
+    position: relative;
+}
+.brandname{
+    width:fit-content;
+    height: fit-content;
+    color: white;
+    position: absolute;
+    left: 0px;
+    bottom: 2px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.nav{
+    width:fit-content;
+    height: fit-content;
+    color: white;
+    position: absolute;
+    font-size: 25px;
+
+    left: 20%;
+    bottom: 2px;
+
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.search{
+    width:fit-content;
+    height: fit-content;
+    
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translate(0%,-50%);
+}
+.btn,.field{
+    height: 25px;
+    border: px solid white;
+}

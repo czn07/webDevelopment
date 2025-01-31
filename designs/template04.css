@@ -1,0 +1,38 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.header{
+    background-color: rosybrown;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+} 
+.intro{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
+    color:blue;
+    background-color: aquamarine;
+    text-align: center;
+    position:absolute;
+    left: 50%;
+    transform : translateX(-50%);
+}
+.icon{
+    background-color: gray;
+    font-size: 25px;
+    color: darkblue;
+    margin;
+}
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.navbar li{
+    list-style-type: none;
+    
+}

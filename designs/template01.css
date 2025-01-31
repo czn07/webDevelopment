@@ -1,0 +1,72 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 0px;
+    background-color: turquoise;
+}
+.header .logo-name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav-bar a{
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+}
+.img-container{
+    width: 100vw;
+    height: 200px;
+    text-align: center;
+    color: antiquewhite;
+    padding-top: 20px;
+    background-image: url('../img/subway.jpg');
+    /* background-repeat: no-repeat; */
+    background-size: 100% 100%;
+}
+.service-container, .portfolio-container, .member-container {
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 0px;
+}
+.service-info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+     
+}
+.service-info .logo, .members img{
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 50%;
+    margin-bottom: 0px;
+}
+.portfolio-card, .member-card{
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.portfolio-items{
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    background-image: url(../img/cyberpunk-city.jpg);
+    background-size: 100% 80%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+}
+.footer{
+    text-align: center;
+    background-color: teal;
+    text-align: center;
+    padding: 10px;
+}
