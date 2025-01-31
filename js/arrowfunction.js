@@ -71,9 +71,20 @@
 // let arr = [1,2,3,5];
 // console.log(firstElement(arr));
 
-//10
-let lastChar = (str) =>{
-    return str.charAt(str.length-1);
+// //10
+// let lastChar = (str) =>{
+//     return str.charAt(str.length-1);
+// }
+// let str = "hello";
+// console.log(lastChar(str));
+
+//11
+let sum = 0;
+let arrSum = (arr) =>{
+    for (let i=0; i<arr.length;i++){
+        sum+=arr[i];
+    }
+    return sum;
 }
-let str = "hello";
-console.log(lastChar(str));
+let arr = [1,2,3];
+console.log(arrSum(arr));
